@@ -40,6 +40,10 @@ h1 {
 .navbar {
     background-color: rgb(215, 196, 183);
 }
+.facebooklogo{border-radius: 50%; height: 40px;}
+.iinstagramlogo{border-radius: 50%; height: 20px;} /**por q no me queda mas chico?**/
+.tiktoklogo{border-radius: 50%; height: 40px;}
+.youtubelogo{border-radius: 50%;height: 40px;}
 
 /*CSS INDEX*/
 
@@ -174,14 +178,16 @@ section h3 {
     padding-left: 100px;
 }
 
-/**para mobile**/
-/**intento 2
+/**para mobile en general para todas mis pages**/
+
 @media only screen and (max-width: 500px){
     .grid-container-habitaciones{ display: flex ; flex-wrap: wrap; justify-content: center;}
     .titulo_habitaciones{padding-left:200px ;}
+    .grid-containter-index{display:flex; flex-wrap: wrap} /**no me funciona**/
+
 
 }
-**/
+
 
 /**inento 1
 @media only screen and (max-width: 500px){
